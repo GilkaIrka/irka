@@ -1,0 +1,13 @@
+import nltk
+from nltk.stem import PorterStemmer
+
+# Заданный текст
+text = "The quick brown fox jumps over the lazy dog."
+
+# Разделение текста на слова
+words = nltk.word_tokenize(text)
+
+# Инициализация стеммера
+stemmer = PorterStemmer()
+
+# Поиск всех слов с 
